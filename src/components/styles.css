@@ -1,0 +1,231 @@
+
+.mydiv{
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+}
+div.divloginnav{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(38, 36, 36);
+  height: fit-content;
+}
+
+ul.loginnav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0.25rem;
+  margin-right: 1rem;
+}
+a.loginitem{
+  text-decoration: none;
+  color: white;
+  
+
+}
+
+img.TopImg{
+  width: 24rem;
+  height: 12rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+ul.nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+li.navitem{
+  padding: 0;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+a.item{
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+a.active{
+  color: red;
+}
+
+div.homepage{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+div.fromhome{
+  margin-left: 8rem;
+  padding: 1rem;
+  height: fit-content;
+  display: flex;
+  width: 80rem;
+  flex-direction: column;
+}
+
+div.poempage1{
+  background-color: white;
+  margin-bottom: 2rem;
+  max-width: 70vw;
+  overflow-wrap: break-word;
+  height: fit-content;
+  padding: 1rem;
+  border: 1px red solid;
+  text-align: center;
+}
+
+div.sidebar{
+  margin-left: 1rem;
+  margin-right: 5rem;
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+  padding: 1rem;
+}
+
+div.Footer{
+  background-color: rgb(12, 12, 12);
+  height: 10vh;
+  position: relative;
+  top: 90vh;
+  padding: 3rem;
+}
+p.footerparagraph{
+  color: white;
+  font-size: large;
+}
+div.horizontal-line {
+  border-top: 1px solid black;
+}
+div.divloginform{
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form.loginform{
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+input.inputfields{
+  margin: 0.5rem;
+  height: 2rem;
+}
+input.submitbutton{
+  margin: 0.5rem;
+  height: 2rem;
+  width: 5rem;
+  background-color: pink;
+  border: solid black 1px;
+  font-family: cursive;
+  align-self: center;
+}
+img.loginavatar{
+  width: 10rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.sidebar{
+    display: none;
+  }
+  div.fromhome{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: fit-content;
+  }
+  ul.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  html{
+    font-size: 10px;
+  }
+  img.TopImg{
+    width: 24rem;
+    height: 12rem;
+    margin-top: 1rem;
+    align-self: center;
+    
+  }
+  ul.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+  }
+  div.fromhome{
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: fit-content;
+  }
+  div.sidebar{
+    display: none;
+  }
+  div.divloginform{
+    background-color: white;
+    max-width: 92vw;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  form.loginform{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+  }
+  input.inputfields{
+    margin: 2rem;
+    height: 4rem;
+  }
+  input.submitbutton{
+    margin: 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: pink;
+    align-self: center;
+  }
+
+
+}
+
